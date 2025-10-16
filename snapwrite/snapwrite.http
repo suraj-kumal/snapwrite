@@ -1,0 +1,6 @@
+@snapwrite_HostAddress = http://localhost:5152
+
+GET {{snapwrite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
