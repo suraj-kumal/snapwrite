@@ -305,14 +305,27 @@ export default function Home() {
                 className="hover:underline transition-colors"
               >
                 Don't have an account?
-              </Link>
+                          </Link>
+
+                          
               {/* <Link
                 href="/forgotpassword"
                 className="hover:underline transition-colors"
               >
                 Forgot password?
               </Link> */}
-            </motion.div>
+                      </motion.div>
+                      <motion.div
+                          variants={itemVariants}
+                          className="border-2 border-secondary p-4"
+                      >
+                          <p className="text-primary">Demo credentials</p>
+
+                          <p className="text-primary">Email : test@snapwrite.com</p> 
+                          <p className="text-primary">Password : password123</p> 
+                      </motion.div>
+
+
           </motion.form>
         </div>
         <footer className="py-6 text-center text-muted-foreground border-t border-border/50 bg-card/20 backdrop-blur-sm">

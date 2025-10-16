@@ -125,7 +125,7 @@ using (var scope = app.Services.CreateScope())
         context.Users.Add(new User
         {
             Name = "Test User",
-            Email = "test@example.com",
+            Email = "test@snapwrite.com",
             Password = BCrypt.Net.BCrypt.HashPassword("password123"),
             EmailVerified = true
         });
