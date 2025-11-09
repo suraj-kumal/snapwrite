@@ -231,5 +231,3 @@ dotnet ef database update --project snapwrite/snapwrite.csproj
 - [snapwrite/Migrations/](snapwrite/Migrations/)
 - [snapwrite/Models/](snapwrite/Models/)
 - [snapwrite/Properties/](snapwrite/Properties/)
-
-If you want, I can: add endpoint documentation (based on controller methods), generate an OpenAPI/Swagger summary, or create a shorter project README.
